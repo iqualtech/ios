@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Map_DirectionViewController">
+            <connections>
+                <outlet property="btnByBus" destination="sXi-uk-fO8" id="dGv-wH-59G"/>
+                <outlet property="btnByCar" destination="TaT-Rq-cbK" id="Nav-7g-msK"/>
+                <outlet property="btnByCycle" destination="fZW-gr-1xO" id="jVJ-4z-UYZ"/>
+                <outlet property="btnByWalk" destination="Ldc-LN-7g9" id="hqe-Ca-gIZ"/>
+                <outlet property="imgView" destination="xg5-fl-CsD" id="Dpl-am-qR9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hIR-Tw-QIz">
+                    <rect key="frame" x="0.0" y="22" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="direction_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TaT-Rq-cbK">
+                    <rect key="frame" x="46" y="22" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="by_car.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="by_car_select.png"/>
+                    <connections>
+                        <action selector="btnByCarClick:" destination="-1" eventType="touchUpInside" id="3pr-S5-Wue"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sXi-uk-fO8">
+                    <rect key="frame" x="92" y="22" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="by_bus.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="by_bus_select.png"/>
+                    <connections>
+                        <action selector="btnByBusClick:" destination="-1" eventType="touchUpInside" id="eGr-2Q-zfY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ldc-LN-7g9">
+                    <rect key="frame" x="138" y="22" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="by_walk.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="by_walk_select.png"/>
+                    <connections>
+                        <action selector="btnByWalkClick:" destination="-1" eventType="touchUpInside" id="gwk-SM-jwg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fZW-gr-1xO">
+                    <rect key="frame" x="184" y="22" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="by_cycle.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="by_cycle_select.png"/>
+                    <connections>
+                        <action selector="btnByCycleClick:" destination="-1" eventType="touchUpInside" id="4iy-7S-otm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WiT-QW-J8N">
+                    <rect key="frame" x="274" y="22" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="cancel_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="by_cycle_select.png"/>
+                    <connections>
+                        <action selector="btnByCancelClick:" destination="-1" eventType="touchUpInside" id="maU-j7-kxK"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map_by_car.png" id="xg5-fl-CsD">
+                    <rect key="frame" x="0.0" y="52" width="320" height="430"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="by_bus.png" width="74" height="47"/>
+        <image name="by_bus_select.png" width="92" height="44"/>
+        <image name="by_car.png" width="47" height="37"/>
+        <image name="by_car_select.png" width="92" height="57"/>
+        <image name="by_cycle.png" width="38" height="36"/>
+        <image name="by_cycle_select.png" width="92" height="46"/>
+        <image name="by_walk.png" width="36" height="36"/>
+        <image name="by_walk_select.png" width="90" height="46"/>
+        <image name="cancel_icon.png" width="51" height="35"/>
+        <image name="direction_icon.png" width="74" height="37"/>
+        <image name="map_by_car.png" width="640" height="947"/>
+    </resources>
+</document>

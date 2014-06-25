@@ -1,0 +1,1439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0E8F101952BFA000B0F493 /* checked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F0E1952BFA000B0F493 /* checked_checkbox.png */; };
+		EA0E8F111952BFA000B0F493 /* unchecked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F0F1952BFA000B0F493 /* unchecked_checkbox.png */; };
+		EA0E8F131952ED1F00B0F493 /* Down_Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F121952ED1F00B0F493 /* Down_Arrow.png */; };
+		EA0E8F191952F0CC00B0F493 /* RevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0E8F161952F0CC00B0F493 /* RevealController.m */; };
+		EA0E8F1A1952F0CC00B0F493 /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0E8F181952F0CC00B0F493 /* ZUUIRevealController.m */; };
+		EA0E8F1C19530BD500B0F493 /* myac_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F1B19530BD500B0F493 /* myac_icon.png */; };
+		EA0E8F1E19530BF700B0F493 /* fav_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F1D19530BF700B0F493 /* fav_icon.png */; };
+		EA0E8F2019530CB200B0F493 /* logout_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F1F19530CB200B0F493 /* logout_icon.png */; };
+		EA0E8F2519530FFB00B0F493 /* RearViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0E8F2319530FFB00B0F493 /* RearViewCell.m */; };
+		EA0E8F2619530FFB00B0F493 /* RearViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0E8F2419530FFB00B0F493 /* RearViewCell.xib */; };
+		EA2DAC06194C1F7600B844EA /* RearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC04194C1F7600B844EA /* RearViewController.m */; };
+		EA2DAC07194C1F7600B844EA /* RearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC05194C1F7600B844EA /* RearViewController.xib */; };
+		EA2DAC22194C50FD00B844EA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC20194C50FD00B844EA /* RegisterViewController.m */; };
+		EA2DAC23194C50FD00B844EA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC21194C50FD00B844EA /* RegisterViewController.xib */; };
+		EA2DAC30194C606B00B844EA /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC2E194C606B00B844EA /* MyAccountViewController.m */; };
+		EA2DAC31194C606B00B844EA /* MyAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC2F194C606B00B844EA /* MyAccountViewController.xib */; };
+		EA2DAC49194C679000B844EA /* MyBookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC47194C679000B844EA /* MyBookingViewController.m */; };
+		EA2DAC4A194C679000B844EA /* MyBookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC48194C679000B844EA /* MyBookingViewController.xib */; };
+		EA2DAC53194C69E400B844EA /* MyReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC51194C69E400B844EA /* MyReviewViewController.m */; };
+		EA2DAC54194C69E400B844EA /* MyReviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC52194C69E400B844EA /* MyReviewViewController.xib */; };
+		EA2DAC5D194C6BCA00B844EA /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC5B194C6BCA00B844EA /* MyProfileViewController.m */; };
+		EA2DAC5E194C6BCA00B844EA /* MyProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC5C194C6BCA00B844EA /* MyProfileViewController.xib */; };
+		EA2DAC6D194C79A300B844EA /* MyFavouritePropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC6B194C79A300B844EA /* MyFavouritePropertyViewController.m */; };
+		EA2DAC6E194C79A300B844EA /* MyFavouritePropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC6C194C79A300B844EA /* MyFavouritePropertyViewController.xib */; };
+		EA2DAC79194C7D4A00B844EA /* VisitHelpCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC77194C7D4A00B844EA /* VisitHelpCenterViewController.m */; };
+		EA2DAC7A194C7D4A00B844EA /* VisitHelpCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC78194C7D4A00B844EA /* VisitHelpCenterViewController.xib */; };
+		EA2DAC84194C7FF000B844EA /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DAC82194C7FF000B844EA /* ChangePasswordViewController.m */; };
+		EA2DAC85194C7FF000B844EA /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DAC83194C7FF000B844EA /* ChangePasswordViewController.xib */; };
+		EA2DB02B1939BB7100AD3079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2DB02A1939BB7100AD3079 /* Foundation.framework */; };
+		EA2DB02D1939BB7100AD3079 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2DB02C1939BB7100AD3079 /* CoreGraphics.framework */; };
+		EA2DB02F1939BB7100AD3079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2DB02E1939BB7100AD3079 /* UIKit.framework */; };
+		EA2DB0351939BB7100AD3079 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2DB0331939BB7100AD3079 /* InfoPlist.strings */; };
+		EA2DB0371939BB7100AD3079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DB0361939BB7100AD3079 /* main.m */; };
+		EA2DB03D1939BB7100AD3079 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2DB03C1939BB7100AD3079 /* Images.xcassets */; };
+		EA2DB0441939BB7100AD3079 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2DB0431939BB7100AD3079 /* XCTest.framework */; };
+		EA2DB0451939BB7100AD3079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2DB02A1939BB7100AD3079 /* Foundation.framework */; };
+		EA2DB0461939BB7100AD3079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2DB02E1939BB7100AD3079 /* UIKit.framework */; };
+		EA2DB04E1939BB7100AD3079 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2DB04C1939BB7100AD3079 /* InfoPlist.strings */; };
+		EA2DB0501939BB7100AD3079 /* Youth_HostelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DB04F1939BB7100AD3079 /* Youth_HostelTests.m */; };
+		EA2DB05C1939BBAD00AD3079 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DB05B1939BBAD00AD3079 /* AppDelegate.m */; };
+		EA2DB0611939BBDD00AD3079 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2DB05F1939BBDD00AD3079 /* LoginViewController.m */; };
+		EA2DB0621939BBDD00AD3079 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2DB0601939BBDD00AD3079 /* LoginViewController.xib */; };
+		EA2DB06B1939C0A700AD3079 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2DB06A1939C0A700AD3079 /* Default-568h@2x.png */; };
+		EA3071CD195574EE00AEFDDC /* SCGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3071CC195574EE00AEFDDC /* SCGIFImageView.m */; };
+		EA3071CF19558F9D00AEFDDC /* hotel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3071CE19558F9D00AEFDDC /* hotel_icon.png */; };
+		EA3071D11955903B00AEFDDC /* Bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3071D01955903B00AEFDDC /* Bubble.png */; };
+		EA3071D31955908C00AEFDDC /* Broucher.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3071D21955908C00AEFDDC /* Broucher.png */; };
+		EA3071D5195594CF00AEFDDC /* Showavailability.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3071D4195594CF00AEFDDC /* Showavailability.png */; };
+		EA350815195172AA004F781A /* address.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507B7195172AA004F781A /* address.png */; };
+		EA350816195172AA004F781A /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507B8195172AA004F781A /* arrow_down.png */; };
+		EA350817195172AA004F781A /* best_loc.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507B9195172AA004F781A /* best_loc.png */; };
+		EA350818195172AA004F781A /* best_loc_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507BA195172AA004F781A /* best_loc_select.png */; };
+		EA350819195172AA004F781A /* best_price.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507BB195172AA004F781A /* best_price.png */; };
+		EA35081A195172AA004F781A /* best_price_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507BC195172AA004F781A /* best_price_select.png */; };
+		EA35081B195172AA004F781A /* best_rating.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507BD195172AA004F781A /* best_rating.png */; };
+		EA35081C195172AA004F781A /* best_rating_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507BE195172AA004F781A /* best_rating_select.png */; };
+		EA35081D195172AA004F781A /* booking_detail_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507BF195172AA004F781A /* booking_detail_1.png */; };
+		EA35081E195172AA004F781A /* booking_with_us.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C0195172AA004F781A /* booking_with_us.png */; };
+		EA35081F195172AA004F781A /* BookNowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C1195172AA004F781A /* BookNowButton.png */; };
+		EA350820195172AA004F781A /* btn_cur_loc.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C2195172AA004F781A /* btn_cur_loc.png */; };
+		EA350821195172AA004F781A /* btn_infonprice.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C3195172AA004F781A /* btn_infonprice.png */; };
+		EA350822195172AA004F781A /* btn_map.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C4195172AA004F781A /* btn_map.png */; };
+		EA350823195172AA004F781A /* btn_review.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C5195172AA004F781A /* btn_review.png */; };
+		EA350824195172AA004F781A /* ButtonBorderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C6195172AA004F781A /* ButtonBorderImage.png */; };
+		EA350825195172AA004F781A /* by_bus.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C7195172AA004F781A /* by_bus.png */; };
+		EA350826195172AA004F781A /* by_bus_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C8195172AA004F781A /* by_bus_select.png */; };
+		EA350827195172AA004F781A /* by_car.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507C9195172AA004F781A /* by_car.png */; };
+		EA350828195172AA004F781A /* by_car_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507CA195172AA004F781A /* by_car_select.png */; };
+		EA350829195172AA004F781A /* by_cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507CB195172AA004F781A /* by_cycle.png */; };
+		EA35082A195172AA004F781A /* by_cycle_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507CC195172AA004F781A /* by_cycle_select.png */; };
+		EA35082B195172AA004F781A /* by_walk.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507CD195172AA004F781A /* by_walk.png */; };
+		EA35082C195172AA004F781A /* by_walk_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507CE195172AA004F781A /* by_walk_select.png */; };
+		EA35082D195172AA004F781A /* cancel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507CF195172AA004F781A /* cancel_icon.png */; };
+		EA35082E195172AA004F781A /* change_password.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D0195172AA004F781A /* change_password.png */; };
+		EA35082F195172AA004F781A /* change_password_in.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D1195172AA004F781A /* change_password_in.png */; };
+		EA350830195172AA004F781A /* change_password_indetail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D2195172AA004F781A /* change_password_indetail.png */; };
+		EA350831195172AA004F781A /* ChangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D3195172AA004F781A /* ChangeButton.png */; };
+		EA350832195172AA004F781A /* ConfirmButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D4195172AA004F781A /* ConfirmButton.png */; };
+		EA350833195172AA004F781A /* date_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D5195172AA004F781A /* date_icon.png */; };
+		EA350834195172AA004F781A /* direction_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D6195172AA004F781A /* direction_icon.png */; };
+		EA350835195172AA004F781A /* GoToMyAccountButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D7195172AA004F781A /* GoToMyAccountButton.png */; };
+		EA350836195172AA004F781A /* guest_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D8195172AA004F781A /* guest_icon.png */; };
+		EA350837195172AA004F781A /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507D9195172AA004F781A /* header.png */; };
+		EA350838195172AA004F781A /* hotel_details_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507DA195172AA004F781A /* hotel_details_1.png */; };
+		EA350839195172AA004F781A /* hotel_details_2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507DB195172AA004F781A /* hotel_details_2.png */; };
+		EA35083A195172AA004F781A /* hotel_details_3.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507DC195172AA004F781A /* hotel_details_3.png */; };
+		EA35083B195172AA004F781A /* hotel_list_item.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507DD195172AA004F781A /* hotel_list_item.png */; };
+		EA35083C195172AA004F781A /* ic_drawer.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507DE195172AA004F781A /* ic_drawer.png */; };
+		EA35083D195172AA004F781A /* icon_card.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507DF195172AA004F781A /* icon_card.png */; };
+		EA35083E195172AA004F781A /* icon_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E0195172AA004F781A /* icon_launcher.png */; };
+		EA35083F195172AA004F781A /* icon_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E1195172AA004F781A /* icon_profile.png */; };
+		EA350840195172AA004F781A /* icon_search.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E2195172AA004F781A /* icon_search.png */; };
+		EA350841195172AA004F781A /* login_lock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E3195172AA004F781A /* login_lock_icon.png */; };
+		EA350842195172AA004F781A /* login_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E4195172AA004F781A /* login_logo.png */; };
+		EA350843195172AA004F781A /* login_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E5195172AA004F781A /* login_title.png */; };
+		EA350844195172AA004F781A /* main_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E6195172AA004F781A /* main_screen.png */; };
+		EA350845195172AA004F781A /* map_by_bus.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E7195172AA004F781A /* map_by_bus.png */; };
+		EA350846195172AA004F781A /* map_by_car.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E8195172AA004F781A /* map_by_car.png */; };
+		EA350847195172AA004F781A /* map_by_cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507E9195172AA004F781A /* map_by_cycle.png */; };
+		EA350848195172AA004F781A /* map_by_walk.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507EA195172AA004F781A /* map_by_walk.png */; };
+		EA350849195172AA004F781A /* my_booking.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507EB195172AA004F781A /* my_booking.png */; };
+		EA35084A195172AA004F781A /* my_booking_in.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507EC195172AA004F781A /* my_booking_in.png */; };
+		EA35084B195172AA004F781A /* my_booking_indetail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507ED195172AA004F781A /* my_booking_indetail.png */; };
+		EA35084C195172AA004F781A /* my_fav_property.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507EE195172AA004F781A /* my_fav_property.png */; };
+		EA35084D195172AA004F781A /* my_fav_property_in.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507EF195172AA004F781A /* my_fav_property_in.png */; };
+		EA35084E195172AA004F781A /* my_fav_property_indetail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F0195172AA004F781A /* my_fav_property_indetail.png */; };
+		EA35084F195172AA004F781A /* my_favourite_pro_Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F1195172AA004F781A /* my_favourite_pro_Detail.png */; };
+		EA350850195172AA004F781A /* my_pro1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F2195172AA004F781A /* my_pro1.png */; };
+		EA350851195172AA004F781A /* my_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F3195172AA004F781A /* my_profile.png */; };
+		EA350852195172AA004F781A /* my_profile_in.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F4195172AA004F781A /* my_profile_in.png */; };
+		EA350853195172AA004F781A /* my_review.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F5195172AA004F781A /* my_review.png */; };
+		EA350854195172AA004F781A /* my_review_in.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F6195172AA004F781A /* my_review_in.png */; };
+		EA350855195172AA004F781A /* my_review_indetail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F7195172AA004F781A /* my_review_indetail.png */; };
+		EA350856195172AA004F781A /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F8195172AA004F781A /* name.png */; };
+		EA350857195172AA004F781A /* name_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507F9195172AA004F781A /* name_select.png */; };
+		EA350858195172AA004F781A /* near_by_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507FA195172AA004F781A /* near_by_icon.png */; };
+		EA350859195172AA004F781A /* Newsletter.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507FB195172AA004F781A /* Newsletter.png */; };
+		EA35085A195172AA004F781A /* Newsletter_Subscription.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507FC195172AA004F781A /* Newsletter_Subscription.png */; };
+		EA35085B195172AA004F781A /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507FD195172AA004F781A /* NextButton.png */; };
+		EA35085C195172AA004F781A /* payment_method.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507FE195172AA004F781A /* payment_method.png */; };
+		EA35085D195172AA004F781A /* payment_method_text.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3507FF195172AA004F781A /* payment_method_text.png */; };
+		EA35085E195172AA004F781A /* personal_info_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350800195172AA004F781A /* personal_info_title.png */; };
+		EA35085F195172AA004F781A /* register_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350801195172AA004F781A /* register_icon.png */; };
+		EA350860195172AA004F781A /* register_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350802195172AA004F781A /* register_logo.png */; };
+		EA350861195172AA004F781A /* register_text.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350803195172AA004F781A /* register_text.png */; };
+		EA350862195172AA004F781A /* RegisterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350804195172AA004F781A /* RegisterButton.png */; };
+		EA350863195172AA004F781A /* safest.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350805195172AA004F781A /* safest.png */; };
+		EA350864195172AA004F781A /* safest_select.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350806195172AA004F781A /* safest_select.png */; };
+		EA350865195172AA004F781A /* scan_credit_card_button.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350807195172AA004F781A /* scan_credit_card_button.png */; };
+		EA350866195172AA004F781A /* scannning.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350808195172AA004F781A /* scannning.png */; };
+		EA350867195172AA004F781A /* SeachButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350809195172AA004F781A /* SeachButton.png */; };
+		EA350868195172AA004F781A /* search_hotel_text.png in Resources */ = {isa = PBXBuildFile; fileRef = EA35080A195172AA004F781A /* search_hotel_text.png */; };
+		EA350869195172AA004F781A /* serch_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA35080B195172AA004F781A /* serch_icon.png */; };
+		EA35086A195172AA004F781A /* setting_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA35080C195172AA004F781A /* setting_icon.png */; };
+		EA35086B195172AA004F781A /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EA35080D195172AA004F781A /* SplashScreen.png */; };
+		EA35086C195172AA004F781A /* SplashScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA35080E195172AA004F781A /* SplashScreen@2x.png */; };
+		EA35086D195172AA004F781A /* square-unfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = EA35080F195172AA004F781A /* square-unfilled.png */; };
+		EA35086E195172AA004F781A /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350810195172AA004F781A /* Square.png */; };
+		EA35086F195172AA004F781A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350811195172AA004F781A /* star.png */; };
+		EA350870195172AA004F781A /* update_your_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350812195172AA004F781A /* update_your_profile.png */; };
+		EA350871195172AA004F781A /* visit_help_centre.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350813195172AA004F781A /* visit_help_centre.png */; };
+		EA350872195172AA004F781A /* Youth-Hostel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EA350814195172AA004F781A /* Youth-Hostel_logo.png */; };
+		EA35087619517497004F781A /* CustomSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA35087419517497004F781A /* CustomSearchCell.m */; };
+		EA35087719517497004F781A /* CustomSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA35087519517497004F781A /* CustomSearchCell.xib */; };
+		EA3B376019585E9400FB6D4F /* frame_square_iced_marble.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3B375F19585E9400FB6D4F /* frame_square_iced_marble.png */; };
+		EA3B3763195860DF00FB6D4F /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3B3761195860DF00FB6D4F /* Cancel.png */; };
+		EA3B3764195860DF00FB6D4F /* OK.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3B3762195860DF00FB6D4F /* OK.png */; };
+		EA3FDEDD195017EF00C7C5C1 /* HotelsDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDEDB195017EF00C7C5C1 /* HotelsDescriptionViewController.m */; };
+		EA3FDEDE195017EF00C7C5C1 /* HotelsDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDEDC195017EF00C7C5C1 /* HotelsDescriptionViewController.xib */; };
+		EA3FDEF3195036F600C7C5C1 /* BookingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDEF1195036F600C7C5C1 /* BookingDetailViewController.m */; };
+		EA3FDEF4195036F600C7C5C1 /* BookingDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDEF2195036F600C7C5C1 /* BookingDetailViewController.xib */; };
+		EA3FDEFD1950428800C7C5C1 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDEFB1950428800C7C5C1 /* PersonalInfoViewController.m */; };
+		EA3FDEFE1950428800C7C5C1 /* PersonalInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDEFC1950428800C7C5C1 /* PersonalInfoViewController.xib */; };
+		EA3FDF0919505BB200C7C5C1 /* PaymentOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDF0719505BB200C7C5C1 /* PaymentOptionViewController.m */; };
+		EA3FDF0A19505BB200C7C5C1 /* PaymentOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDF0819505BB200C7C5C1 /* PaymentOptionViewController.xib */; };
+		EA3FDF221950758D00C7C5C1 /* ScanCreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDF201950758D00C7C5C1 /* ScanCreditCardViewController.m */; };
+		EA3FDF231950758D00C7C5C1 /* ScanCreditCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDF211950758D00C7C5C1 /* ScanCreditCardViewController.xib */; };
+		EA3FDF2C1950783A00C7C5C1 /* BookingConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDF2A1950783A00C7C5C1 /* BookingConfirmViewController.m */; };
+		EA3FDF2D1950783A00C7C5C1 /* BookingConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDF2B1950783A00C7C5C1 /* BookingConfirmViewController.xib */; };
+		EA3FDF3419507F0A00C7C5C1 /* Map_DirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FDF3219507F0A00C7C5C1 /* Map_DirectionViewController.m */; };
+		EA3FDF3519507F0A00C7C5C1 /* Map_DirectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FDF3319507F0A00C7C5C1 /* Map_DirectionViewController.xib */; };
+		EA47A6931958669300596ED1 /* review_indetail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA47A6921958669300596ED1 /* review_indetail.png */; };
+		EA47F076194338A600126A93 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA47F074194338A600126A93 /* SearchViewController.m */; };
+		EA47F077194338A600126A93 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA47F075194338A600126A93 /* SearchViewController.xib */; };
+		EA6F8139194F143C0007E90A /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F812D194F143C0007E90A /* AbstractActionSheetPicker.m */; };
+		EA6F813A194F143C0007E90A /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F812F194F143C0007E90A /* ActionSheetCustomPicker.m */; };
+		EA6F813B194F143C0007E90A /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8132194F143C0007E90A /* ActionSheetDatePicker.m */; };
+		EA6F813C194F143C0007E90A /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8134194F143C0007E90A /* ActionSheetDistancePicker.m */; };
+		EA6F813D194F143C0007E90A /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8136194F143C0007E90A /* ActionSheetStringPicker.m */; };
+		EA6F813E194F143C0007E90A /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8138194F143C0007E90A /* DistancePickerView.m */; };
+		EA6F8142194F15530007E90A /* NSDate+TCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8141194F15530007E90A /* NSDate+TCUtils.m */; };
+		EA6F8145194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8144194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.m */; };
+		EA6F815B194F20510007E90A /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8159194F20510007E90A /* SearchResultViewController.m */; };
+		EA6F815C194F20510007E90A /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6F815A194F20510007E90A /* SearchResultViewController.xib */; };
+		EAA1563D195423D700213BAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA1563C195423D700213BAD /* CoreLocation.framework */; };
+		EAA187C91959402B002E7128 /* Bubble1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187C81959402B002E7128 /* Bubble1.png */; };
+		EAA187CB19594538002E7128 /* hotel_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187CA19594538002E7128 /* hotel_pic.png */; };
+		EAA187CE1959589C002E7128 /* icon_check_green.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187CD1959589C002E7128 /* icon_check_green.png */; };
+		EAA187D119596F8E002E7128 /* icon_visa_card.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187CF19596F8E002E7128 /* icon_visa_card.png */; };
+		EAA187D219596F8E002E7128 /* icon_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187D019596F8E002E7128 /* icon_visa.png */; };
+		EAA187D519596F9E002E7128 /* icon_master_card.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187D319596F9E002E7128 /* icon_master_card.png */; };
+		EAA187D619596F9E002E7128 /* icon_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187D419596F9E002E7128 /* icon_mastercard.png */; };
+		EAA187D8195975F5002E7128 /* BTN_NOW.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187D7195975F5002E7128 /* BTN_NOW.png */; };
+		EAA187DA19597B6E002E7128 /* getDirectionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA187D919597B6E002E7128 /* getDirectionButton.png */; };
+		EAC47807195460560056A881 /* searching.gif in Resources */ = {isa = PBXBuildFile; fileRef = EAC47806195460560056A881 /* searching.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA2DB0471939BB7100AD3079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2DB01F1939BB7100AD3079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2DB0261939BB7100AD3079;
+			remoteInfo = "Youth-Hostel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0E8F0E1952BFA000B0F493 /* checked_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked_checkbox.png; sourceTree = "<group>"; };
+		EA0E8F0F1952BFA000B0F493 /* unchecked_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked_checkbox.png; sourceTree = "<group>"; };
+		EA0E8F121952ED1F00B0F493 /* Down_Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Down_Arrow.png; sourceTree = "<group>"; };
+		EA0E8F151952F0CC00B0F493 /* RevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealController.h; sourceTree = "<group>"; };
+		EA0E8F161952F0CC00B0F493 /* RevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealController.m; sourceTree = "<group>"; };
+		EA0E8F171952F0CC00B0F493 /* ZUUIRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUUIRevealController.h; sourceTree = "<group>"; };
+		EA0E8F181952F0CC00B0F493 /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUUIRevealController.m; sourceTree = "<group>"; };
+		EA0E8F1B19530BD500B0F493 /* myac_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myac_icon.png; sourceTree = "<group>"; };
+		EA0E8F1D19530BF700B0F493 /* fav_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_icon.png; sourceTree = "<group>"; };
+		EA0E8F1F19530CB200B0F493 /* logout_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout_icon.png; sourceTree = "<group>"; };
+		EA0E8F2219530FFB00B0F493 /* RearViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RearViewCell.h; path = "Youth-Hostel/SlideMenu/RearViewCell/RearViewCell.h"; sourceTree = "<group>"; };
+		EA0E8F2319530FFB00B0F493 /* RearViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RearViewCell.m; path = "Youth-Hostel/SlideMenu/RearViewCell/RearViewCell.m"; sourceTree = "<group>"; };
+		EA0E8F2419530FFB00B0F493 /* RearViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RearViewCell.xib; path = "Youth-Hostel/SlideMenu/RearViewCell/RearViewCell.xib"; sourceTree = "<group>"; };
+		EA2DAC03194C1F7600B844EA /* RearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RearViewController.h; path = "Youth-Hostel/SlideMenu/RearViewController.h"; sourceTree = "<group>"; };
+		EA2DAC04194C1F7600B844EA /* RearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RearViewController.m; path = "Youth-Hostel/SlideMenu/RearViewController.m"; sourceTree = "<group>"; };
+		EA2DAC05194C1F7600B844EA /* RearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RearViewController.xib; path = "Youth-Hostel/SlideMenu/RearViewController.xib"; sourceTree = "<group>"; };
+		EA2DAC1F194C50FD00B844EA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = RegisterViewController/RegisterViewController.h; sourceTree = "<group>"; };
+		EA2DAC20194C50FD00B844EA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = RegisterViewController/RegisterViewController.m; sourceTree = "<group>"; };
+		EA2DAC21194C50FD00B844EA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = RegisterViewController/RegisterViewController.xib; sourceTree = "<group>"; };
+		EA2DAC2D194C606B00B844EA /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAccountViewController.h; path = MyAccount/MyAccountViewController.h; sourceTree = "<group>"; };
+		EA2DAC2E194C606B00B844EA /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAccountViewController.m; path = MyAccount/MyAccountViewController.m; sourceTree = "<group>"; };
+		EA2DAC2F194C606B00B844EA /* MyAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyAccountViewController.xib; path = MyAccount/MyAccountViewController.xib; sourceTree = "<group>"; };
+		EA2DAC46194C679000B844EA /* MyBookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyBookingViewController.h; path = MyBooking/MyBookingViewController.h; sourceTree = "<group>"; };
+		EA2DAC47194C679000B844EA /* MyBookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyBookingViewController.m; path = MyBooking/MyBookingViewController.m; sourceTree = "<group>"; };
+		EA2DAC48194C679000B844EA /* MyBookingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyBookingViewController.xib; path = MyBooking/MyBookingViewController.xib; sourceTree = "<group>"; };
+		EA2DAC50194C69E400B844EA /* MyReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyReviewViewController.h; path = MyReview/MyReviewViewController.h; sourceTree = "<group>"; };
+		EA2DAC51194C69E400B844EA /* MyReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyReviewViewController.m; path = MyReview/MyReviewViewController.m; sourceTree = "<group>"; };
+		EA2DAC52194C69E400B844EA /* MyReviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyReviewViewController.xib; path = MyReview/MyReviewViewController.xib; sourceTree = "<group>"; };
+		EA2DAC5A194C6BCA00B844EA /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyProfileViewController.h; path = MyProfile/MyProfileViewController.h; sourceTree = "<group>"; };
+		EA2DAC5B194C6BCA00B844EA /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyProfileViewController.m; path = MyProfile/MyProfileViewController.m; sourceTree = "<group>"; };
+		EA2DAC5C194C6BCA00B844EA /* MyProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyProfileViewController.xib; path = MyProfile/MyProfileViewController.xib; sourceTree = "<group>"; };
+		EA2DAC6A194C79A300B844EA /* MyFavouritePropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyFavouritePropertyViewController.h; path = MyFavouriteProperty/MyFavouritePropertyViewController.h; sourceTree = "<group>"; };
+		EA2DAC6B194C79A300B844EA /* MyFavouritePropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyFavouritePropertyViewController.m; path = MyFavouriteProperty/MyFavouritePropertyViewController.m; sourceTree = "<group>"; };
+		EA2DAC6C194C79A300B844EA /* MyFavouritePropertyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyFavouritePropertyViewController.xib; path = MyFavouriteProperty/MyFavouritePropertyViewController.xib; sourceTree = "<group>"; };
+		EA2DAC76194C7D4A00B844EA /* VisitHelpCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisitHelpCenterViewController.h; path = VisitHelpCenter/VisitHelpCenterViewController.h; sourceTree = "<group>"; };
+		EA2DAC77194C7D4A00B844EA /* VisitHelpCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisitHelpCenterViewController.m; path = VisitHelpCenter/VisitHelpCenterViewController.m; sourceTree = "<group>"; };
+		EA2DAC78194C7D4A00B844EA /* VisitHelpCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VisitHelpCenterViewController.xib; path = VisitHelpCenter/VisitHelpCenterViewController.xib; sourceTree = "<group>"; };
+		EA2DAC81194C7FF000B844EA /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangePasswordViewController.h; path = ChangePassword/ChangePasswordViewController.h; sourceTree = "<group>"; };
+		EA2DAC82194C7FF000B844EA /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangePasswordViewController.m; path = ChangePassword/ChangePasswordViewController.m; sourceTree = "<group>"; };
+		EA2DAC83194C7FF000B844EA /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChangePasswordViewController.xib; path = ChangePassword/ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		EA2DB0271939BB7100AD3079 /* Youth-Hostel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youth-Hostel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2DB02A1939BB7100AD3079 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2DB02C1939BB7100AD3079 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA2DB02E1939BB7100AD3079 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA2DB0321939BB7100AD3079 /* Youth-Hostel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Youth-Hostel-Info.plist"; sourceTree = "<group>"; };
+		EA2DB0341939BB7100AD3079 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA2DB0361939BB7100AD3079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2DB0381939BB7100AD3079 /* Youth-Hostel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Youth-Hostel-Prefix.pch"; sourceTree = "<group>"; };
+		EA2DB03C1939BB7100AD3079 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA2DB0421939BB7100AD3079 /* Youth-HostelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Youth-HostelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2DB0431939BB7100AD3079 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA2DB04B1939BB7100AD3079 /* Youth-HostelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Youth-HostelTests-Info.plist"; sourceTree = "<group>"; };
+		EA2DB04D1939BB7100AD3079 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA2DB04F1939BB7100AD3079 /* Youth_HostelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Youth_HostelTests.m; sourceTree = "<group>"; };
+		EA2DB05A1939BBAD00AD3079 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA2DB05B1939BBAD00AD3079 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA2DB05E1939BBDD00AD3079 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/LoginViewController.h; sourceTree = "<group>"; };
+		EA2DB05F1939BBDD00AD3079 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/LoginViewController.m; sourceTree = "<group>"; };
+		EA2DB0601939BBDD00AD3079 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Login/LoginViewController.xib; sourceTree = "<group>"; };
+		EA2DB06A1939C0A700AD3079 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA3071CB195574EE00AEFDDC /* SCGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGIFImageView.h; sourceTree = "<group>"; };
+		EA3071CC195574EE00AEFDDC /* SCGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGIFImageView.m; sourceTree = "<group>"; };
+		EA3071CE19558F9D00AEFDDC /* hotel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_icon.png; sourceTree = "<group>"; };
+		EA3071D01955903B00AEFDDC /* Bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bubble.png; sourceTree = "<group>"; };
+		EA3071D21955908C00AEFDDC /* Broucher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Broucher.png; sourceTree = "<group>"; };
+		EA3071D4195594CF00AEFDDC /* Showavailability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Showavailability.png; sourceTree = "<group>"; };
+		EA3507B7195172AA004F781A /* address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = address.png; sourceTree = "<group>"; };
+		EA3507B8195172AA004F781A /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		EA3507B9195172AA004F781A /* best_loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = best_loc.png; sourceTree = "<group>"; };
+		EA3507BA195172AA004F781A /* best_loc_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = best_loc_select.png; sourceTree = "<group>"; };
+		EA3507BB195172AA004F781A /* best_price.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = best_price.png; sourceTree = "<group>"; };
+		EA3507BC195172AA004F781A /* best_price_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = best_price_select.png; sourceTree = "<group>"; };
+		EA3507BD195172AA004F781A /* best_rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = best_rating.png; sourceTree = "<group>"; };
+		EA3507BE195172AA004F781A /* best_rating_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = best_rating_select.png; sourceTree = "<group>"; };
+		EA3507BF195172AA004F781A /* booking_detail_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = booking_detail_1.png; sourceTree = "<group>"; };
+		EA3507C0195172AA004F781A /* booking_with_us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = booking_with_us.png; sourceTree = "<group>"; };
+		EA3507C1195172AA004F781A /* BookNowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookNowButton.png; sourceTree = "<group>"; };
+		EA3507C2195172AA004F781A /* btn_cur_loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cur_loc.png; sourceTree = "<group>"; };
+		EA3507C3195172AA004F781A /* btn_infonprice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_infonprice.png; sourceTree = "<group>"; };
+		EA3507C4195172AA004F781A /* btn_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_map.png; sourceTree = "<group>"; };
+		EA3507C5195172AA004F781A /* btn_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_review.png; sourceTree = "<group>"; };
+		EA3507C6195172AA004F781A /* ButtonBorderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBorderImage.png; sourceTree = "<group>"; };
+		EA3507C7195172AA004F781A /* by_bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_bus.png; sourceTree = "<group>"; };
+		EA3507C8195172AA004F781A /* by_bus_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_bus_select.png; sourceTree = "<group>"; };
+		EA3507C9195172AA004F781A /* by_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_car.png; sourceTree = "<group>"; };
+		EA3507CA195172AA004F781A /* by_car_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_car_select.png; sourceTree = "<group>"; };
+		EA3507CB195172AA004F781A /* by_cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_cycle.png; sourceTree = "<group>"; };
+		EA3507CC195172AA004F781A /* by_cycle_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_cycle_select.png; sourceTree = "<group>"; };
+		EA3507CD195172AA004F781A /* by_walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_walk.png; sourceTree = "<group>"; };
+		EA3507CE195172AA004F781A /* by_walk_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_walk_select.png; sourceTree = "<group>"; };
+		EA3507CF195172AA004F781A /* cancel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_icon.png; sourceTree = "<group>"; };
+		EA3507D0195172AA004F781A /* change_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change_password.png; sourceTree = "<group>"; };
+		EA3507D1195172AA004F781A /* change_password_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change_password_in.png; sourceTree = "<group>"; };
+		EA3507D2195172AA004F781A /* change_password_indetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change_password_indetail.png; sourceTree = "<group>"; };
+		EA3507D3195172AA004F781A /* ChangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChangeButton.png; sourceTree = "<group>"; };
+		EA3507D4195172AA004F781A /* ConfirmButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConfirmButton.png; sourceTree = "<group>"; };
+		EA3507D5195172AA004F781A /* date_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon.png; sourceTree = "<group>"; };
+		EA3507D6195172AA004F781A /* direction_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = direction_icon.png; sourceTree = "<group>"; };
+		EA3507D7195172AA004F781A /* GoToMyAccountButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoToMyAccountButton.png; sourceTree = "<group>"; };
+		EA3507D8195172AA004F781A /* guest_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guest_icon.png; sourceTree = "<group>"; };
+		EA3507D9195172AA004F781A /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		EA3507DA195172AA004F781A /* hotel_details_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_details_1.png; sourceTree = "<group>"; };
+		EA3507DB195172AA004F781A /* hotel_details_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_details_2.png; sourceTree = "<group>"; };
+		EA3507DC195172AA004F781A /* hotel_details_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_details_3.png; sourceTree = "<group>"; };
+		EA3507DD195172AA004F781A /* hotel_list_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_list_item.png; sourceTree = "<group>"; };
+		EA3507DE195172AA004F781A /* ic_drawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_drawer.png; sourceTree = "<group>"; };
+		EA3507DF195172AA004F781A /* icon_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_card.png; sourceTree = "<group>"; };
+		EA3507E0195172AA004F781A /* icon_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_launcher.png; sourceTree = "<group>"; };
+		EA3507E1195172AA004F781A /* icon_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_profile.png; sourceTree = "<group>"; };
+		EA3507E2195172AA004F781A /* icon_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search.png; sourceTree = "<group>"; };
+		EA3507E3195172AA004F781A /* login_lock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_lock_icon.png; sourceTree = "<group>"; };
+		EA3507E4195172AA004F781A /* login_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_logo.png; sourceTree = "<group>"; };
+		EA3507E5195172AA004F781A /* login_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_title.png; sourceTree = "<group>"; };
+		EA3507E6195172AA004F781A /* main_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_screen.png; sourceTree = "<group>"; };
+		EA3507E7195172AA004F781A /* map_by_bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_by_bus.png; sourceTree = "<group>"; };
+		EA3507E8195172AA004F781A /* map_by_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_by_car.png; sourceTree = "<group>"; };
+		EA3507E9195172AA004F781A /* map_by_cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_by_cycle.png; sourceTree = "<group>"; };
+		EA3507EA195172AA004F781A /* map_by_walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_by_walk.png; sourceTree = "<group>"; };
+		EA3507EB195172AA004F781A /* my_booking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_booking.png; sourceTree = "<group>"; };
+		EA3507EC195172AA004F781A /* my_booking_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_booking_in.png; sourceTree = "<group>"; };
+		EA3507ED195172AA004F781A /* my_booking_indetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_booking_indetail.png; sourceTree = "<group>"; };
+		EA3507EE195172AA004F781A /* my_fav_property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_fav_property.png; sourceTree = "<group>"; };
+		EA3507EF195172AA004F781A /* my_fav_property_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_fav_property_in.png; sourceTree = "<group>"; };
+		EA3507F0195172AA004F781A /* my_fav_property_indetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_fav_property_indetail.png; sourceTree = "<group>"; };
+		EA3507F1195172AA004F781A /* my_favourite_pro_Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_favourite_pro_Detail.png; sourceTree = "<group>"; };
+		EA3507F2195172AA004F781A /* my_pro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_pro1.png; sourceTree = "<group>"; };
+		EA3507F3195172AA004F781A /* my_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_profile.png; sourceTree = "<group>"; };
+		EA3507F4195172AA004F781A /* my_profile_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_profile_in.png; sourceTree = "<group>"; };
+		EA3507F5195172AA004F781A /* my_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_review.png; sourceTree = "<group>"; };
+		EA3507F6195172AA004F781A /* my_review_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_review_in.png; sourceTree = "<group>"; };
+		EA3507F7195172AA004F781A /* my_review_indetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_review_indetail.png; sourceTree = "<group>"; };
+		EA3507F8195172AA004F781A /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		EA3507F9195172AA004F781A /* name_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name_select.png; sourceTree = "<group>"; };
+		EA3507FA195172AA004F781A /* near_by_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = near_by_icon.png; sourceTree = "<group>"; };
+		EA3507FB195172AA004F781A /* Newsletter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newsletter.png; sourceTree = "<group>"; };
+		EA3507FC195172AA004F781A /* Newsletter_Subscription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newsletter_Subscription.png; sourceTree = "<group>"; };
+		EA3507FD195172AA004F781A /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		EA3507FE195172AA004F781A /* payment_method.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment_method.png; sourceTree = "<group>"; };
+		EA3507FF195172AA004F781A /* payment_method_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment_method_text.png; sourceTree = "<group>"; };
+		EA350800195172AA004F781A /* personal_info_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_info_title.png; sourceTree = "<group>"; };
+		EA350801195172AA004F781A /* register_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_icon.png; sourceTree = "<group>"; };
+		EA350802195172AA004F781A /* register_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_logo.png; sourceTree = "<group>"; };
+		EA350803195172AA004F781A /* register_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_text.png; sourceTree = "<group>"; };
+		EA350804195172AA004F781A /* RegisterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterButton.png; sourceTree = "<group>"; };
+		EA350805195172AA004F781A /* safest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safest.png; sourceTree = "<group>"; };
+		EA350806195172AA004F781A /* safest_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safest_select.png; sourceTree = "<group>"; };
+		EA350807195172AA004F781A /* scan_credit_card_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_credit_card_button.png; sourceTree = "<group>"; };
+		EA350808195172AA004F781A /* scannning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scannning.png; sourceTree = "<group>"; };
+		EA350809195172AA004F781A /* SeachButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeachButton.png; sourceTree = "<group>"; };
+		EA35080A195172AA004F781A /* search_hotel_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_hotel_text.png; sourceTree = "<group>"; };
+		EA35080B195172AA004F781A /* serch_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serch_icon.png; sourceTree = "<group>"; };
+		EA35080C195172AA004F781A /* setting_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_icon.png; sourceTree = "<group>"; };
+		EA35080D195172AA004F781A /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
+		EA35080E195172AA004F781A /* SplashScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SplashScreen@2x.png"; sourceTree = "<group>"; };
+		EA35080F195172AA004F781A /* square-unfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-unfilled.png"; sourceTree = "<group>"; };
+		EA350810195172AA004F781A /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
+		EA350811195172AA004F781A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EA350812195172AA004F781A /* update_your_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update_your_profile.png; sourceTree = "<group>"; };
+		EA350813195172AA004F781A /* visit_help_centre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visit_help_centre.png; sourceTree = "<group>"; };
+		EA350814195172AA004F781A /* Youth-Hostel_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Youth-Hostel_logo.png"; sourceTree = "<group>"; };
+		EA35087319517497004F781A /* CustomSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomSearchCell.h; path = "Youth-Hostel/SearchResultViewController/CustomSearchCell/CustomSearchCell.h"; sourceTree = "<group>"; };
+		EA35087419517497004F781A /* CustomSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomSearchCell.m; path = "Youth-Hostel/SearchResultViewController/CustomSearchCell/CustomSearchCell.m"; sourceTree = "<group>"; };
+		EA35087519517497004F781A /* CustomSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomSearchCell.xib; path = "Youth-Hostel/SearchResultViewController/CustomSearchCell/CustomSearchCell.xib"; sourceTree = "<group>"; };
+		EA3B375F19585E9400FB6D4F /* frame_square_iced_marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_square_iced_marble.png; sourceTree = "<group>"; };
+		EA3B3761195860DF00FB6D4F /* Cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cancel.png; sourceTree = "<group>"; };
+		EA3B3762195860DF00FB6D4F /* OK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OK.png; sourceTree = "<group>"; };
+		EA3FDEDA195017EF00C7C5C1 /* HotelsDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelsDescriptionViewController.h; path = "Youth-Hostel/HotelsDescription/HotelsDescriptionViewController.h"; sourceTree = "<group>"; };
+		EA3FDEDB195017EF00C7C5C1 /* HotelsDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelsDescriptionViewController.m; path = "Youth-Hostel/HotelsDescription/HotelsDescriptionViewController.m"; sourceTree = "<group>"; };
+		EA3FDEDC195017EF00C7C5C1 /* HotelsDescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HotelsDescriptionViewController.xib; path = "Youth-Hostel/HotelsDescription/HotelsDescriptionViewController.xib"; sourceTree = "<group>"; };
+		EA3FDEF0195036F600C7C5C1 /* BookingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookingDetailViewController.h; path = "Youth-Hostel/BookingDetail/BookingDetailViewController.h"; sourceTree = "<group>"; };
+		EA3FDEF1195036F600C7C5C1 /* BookingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookingDetailViewController.m; path = "Youth-Hostel/BookingDetail/BookingDetailViewController.m"; sourceTree = "<group>"; };
+		EA3FDEF2195036F600C7C5C1 /* BookingDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookingDetailViewController.xib; path = "Youth-Hostel/BookingDetail/BookingDetailViewController.xib"; sourceTree = "<group>"; };
+		EA3FDEFA1950428800C7C5C1 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalInfoViewController.h; path = "Youth-Hostel/PersonalInfoForBooking/PersonalInfoViewController.h"; sourceTree = "<group>"; };
+		EA3FDEFB1950428800C7C5C1 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalInfoViewController.m; path = "Youth-Hostel/PersonalInfoForBooking/PersonalInfoViewController.m"; sourceTree = "<group>"; };
+		EA3FDEFC1950428800C7C5C1 /* PersonalInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalInfoViewController.xib; path = "Youth-Hostel/PersonalInfoForBooking/PersonalInfoViewController.xib"; sourceTree = "<group>"; };
+		EA3FDF0619505BB200C7C5C1 /* PaymentOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaymentOptionViewController.h; path = "Youth-Hostel/PaymentOption/PaymentOptionViewController.h"; sourceTree = "<group>"; };
+		EA3FDF0719505BB200C7C5C1 /* PaymentOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaymentOptionViewController.m; path = "Youth-Hostel/PaymentOption/PaymentOptionViewController.m"; sourceTree = "<group>"; };
+		EA3FDF0819505BB200C7C5C1 /* PaymentOptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaymentOptionViewController.xib; path = "Youth-Hostel/PaymentOption/PaymentOptionViewController.xib"; sourceTree = "<group>"; };
+		EA3FDF1F1950758D00C7C5C1 /* ScanCreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanCreditCardViewController.h; path = "Youth-Hostel/ScanCreditCard/ScanCreditCardViewController.h"; sourceTree = "<group>"; };
+		EA3FDF201950758D00C7C5C1 /* ScanCreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanCreditCardViewController.m; path = "Youth-Hostel/ScanCreditCard/ScanCreditCardViewController.m"; sourceTree = "<group>"; };
+		EA3FDF211950758D00C7C5C1 /* ScanCreditCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScanCreditCardViewController.xib; path = "Youth-Hostel/ScanCreditCard/ScanCreditCardViewController.xib"; sourceTree = "<group>"; };
+		EA3FDF291950783A00C7C5C1 /* BookingConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookingConfirmViewController.h; path = "Youth-Hostel/BookingConfirm/BookingConfirmViewController.h"; sourceTree = "<group>"; };
+		EA3FDF2A1950783A00C7C5C1 /* BookingConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookingConfirmViewController.m; path = "Youth-Hostel/BookingConfirm/BookingConfirmViewController.m"; sourceTree = "<group>"; };
+		EA3FDF2B1950783A00C7C5C1 /* BookingConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookingConfirmViewController.xib; path = "Youth-Hostel/BookingConfirm/BookingConfirmViewController.xib"; sourceTree = "<group>"; };
+		EA3FDF3119507F0A00C7C5C1 /* Map_DirectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map_DirectionViewController.h; path = "Youth-Hostel/Map_Direction/Map_DirectionViewController.h"; sourceTree = "<group>"; };
+		EA3FDF3219507F0A00C7C5C1 /* Map_DirectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Map_DirectionViewController.m; path = "Youth-Hostel/Map_Direction/Map_DirectionViewController.m"; sourceTree = "<group>"; };
+		EA3FDF3319507F0A00C7C5C1 /* Map_DirectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Map_DirectionViewController.xib; path = "Youth-Hostel/Map_Direction/Map_DirectionViewController.xib"; sourceTree = "<group>"; };
+		EA47A6921958669300596ED1 /* review_indetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review_indetail.png; sourceTree = "<group>"; };
+		EA47F073194338A600126A93 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = "Youth-Hostel/SearchViewController/SearchViewController.h"; sourceTree = "<group>"; };
+		EA47F074194338A600126A93 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = "Youth-Hostel/SearchViewController/SearchViewController.m"; sourceTree = "<group>"; };
+		EA47F075194338A600126A93 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchViewController.xib; path = "Youth-Hostel/SearchViewController/SearchViewController.xib"; sourceTree = "<group>"; };
+		EA6F812C194F143C0007E90A /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		EA6F812D194F143C0007E90A /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		EA6F812E194F143C0007E90A /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		EA6F812F194F143C0007E90A /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		EA6F8130194F143C0007E90A /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		EA6F8131194F143C0007E90A /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		EA6F8132194F143C0007E90A /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		EA6F8133194F143C0007E90A /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		EA6F8134194F143C0007E90A /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		EA6F8135194F143C0007E90A /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		EA6F8136194F143C0007E90A /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		EA6F8137194F143C0007E90A /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		EA6F8138194F143C0007E90A /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		EA6F813F194F14750007E90A /* ActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		EA6F8140194F15530007E90A /* NSDate+TCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TCUtils.h"; sourceTree = "<group>"; };
+		EA6F8141194F15530007E90A /* NSDate+TCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TCUtils.m"; sourceTree = "<group>"; };
+		EA6F8143194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerCustomPickerDelegate.h; sourceTree = "<group>"; };
+		EA6F8144194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerCustomPickerDelegate.m; sourceTree = "<group>"; };
+		EA6F8158194F20510007E90A /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultViewController.h; path = "Youth-Hostel/SearchResultViewController/SearchResultViewController.h"; sourceTree = "<group>"; };
+		EA6F8159194F20510007E90A /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultViewController.m; path = "Youth-Hostel/SearchResultViewController/SearchResultViewController.m"; sourceTree = "<group>"; };
+		EA6F815A194F20510007E90A /* SearchResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchResultViewController.xib; path = "Youth-Hostel/SearchResultViewController/SearchResultViewController.xib"; sourceTree = "<group>"; };
+		EAA1563A1954237100213BAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EAA1563C195423D700213BAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EAA187C81959402B002E7128 /* Bubble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bubble1.png; sourceTree = "<group>"; };
+		EAA187CA19594538002E7128 /* hotel_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_pic.png; sourceTree = "<group>"; };
+		EAA187CD1959589C002E7128 /* icon_check_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_check_green.png; sourceTree = "<group>"; };
+		EAA187CF19596F8E002E7128 /* icon_visa_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_visa_card.png; sourceTree = "<group>"; };
+		EAA187D019596F8E002E7128 /* icon_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_visa.png; sourceTree = "<group>"; };
+		EAA187D319596F9E002E7128 /* icon_master_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_master_card.png; sourceTree = "<group>"; };
+		EAA187D419596F9E002E7128 /* icon_mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mastercard.png; sourceTree = "<group>"; };
+		EAA187D7195975F5002E7128 /* BTN_NOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BTN_NOW.png; sourceTree = "<group>"; };
+		EAA187D919597B6E002E7128 /* getDirectionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = getDirectionButton.png; sourceTree = "<group>"; };
+		EAC47806195460560056A881 /* searching.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = searching.gif; path = ../../../../../../../Downloads/searching.gif; sourceTree = "<group>"; };
+		EAC47810195467420056A881 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAC478121954674E0056A881 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2DB0241939BB7100AD3079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1563D195423D700213BAD /* CoreLocation.framework in Frameworks */,
+				EA2DB02D1939BB7100AD3079 /* CoreGraphics.framework in Frameworks */,
+				EA2DB02F1939BB7100AD3079 /* UIKit.framework in Frameworks */,
+				EA2DB02B1939BB7100AD3079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2DB03F1939BB7100AD3079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2DB0441939BB7100AD3079 /* XCTest.framework in Frameworks */,
+				EA2DB0461939BB7100AD3079 /* UIKit.framework in Frameworks */,
+				EA2DB0451939BB7100AD3079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0E8F141952F0CC00B0F493 /* SlideBarClass */ = {
+			isa = PBXGroup;
+			children = (
+				EA0E8F151952F0CC00B0F493 /* RevealController.h */,
+				EA0E8F161952F0CC00B0F493 /* RevealController.m */,
+				EA0E8F171952F0CC00B0F493 /* ZUUIRevealController.h */,
+				EA0E8F181952F0CC00B0F493 /* ZUUIRevealController.m */,
+			);
+			name = SlideBarClass;
+			path = "Youth-Hostel/SlideMenu/SlideBarClass";
+			sourceTree = "<group>";
+		};
+		EA0E8F2119530F8500B0F493 /* RearViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA0E8F2219530FFB00B0F493 /* RearViewCell.h */,
+				EA0E8F2319530FFB00B0F493 /* RearViewCell.m */,
+				EA0E8F2419530FFB00B0F493 /* RearViewCell.xib */,
+			);
+			name = RearViewCell;
+			sourceTree = "<group>";
+		};
+		EA2DAC02194C1F4300B844EA /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EA0E8F2119530F8500B0F493 /* RearViewCell */,
+				EA2DAC03194C1F7600B844EA /* RearViewController.h */,
+				EA2DAC04194C1F7600B844EA /* RearViewController.m */,
+				EA2DAC05194C1F7600B844EA /* RearViewController.xib */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		EA2DAC1E194C50AF00B844EA /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC1F194C50FD00B844EA /* RegisterViewController.h */,
+				EA2DAC20194C50FD00B844EA /* RegisterViewController.m */,
+				EA2DAC21194C50FD00B844EA /* RegisterViewController.xib */,
+			);
+			name = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		EA2DAC2C194C604100B844EA /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC2D194C606B00B844EA /* MyAccountViewController.h */,
+				EA2DAC2E194C606B00B844EA /* MyAccountViewController.m */,
+				EA2DAC2F194C606B00B844EA /* MyAccountViewController.xib */,
+			);
+			name = MyAccount;
+			sourceTree = "<group>";
+		};
+		EA2DAC40194C66EC00B844EA /* MyBooking */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC46194C679000B844EA /* MyBookingViewController.h */,
+				EA2DAC47194C679000B844EA /* MyBookingViewController.m */,
+				EA2DAC48194C679000B844EA /* MyBookingViewController.xib */,
+			);
+			name = MyBooking;
+			sourceTree = "<group>";
+		};
+		EA2DAC4F194C69B500B844EA /* MyReview */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC50194C69E400B844EA /* MyReviewViewController.h */,
+				EA2DAC51194C69E400B844EA /* MyReviewViewController.m */,
+				EA2DAC52194C69E400B844EA /* MyReviewViewController.xib */,
+			);
+			name = MyReview;
+			sourceTree = "<group>";
+		};
+		EA2DAC59194C6BA200B844EA /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC5A194C6BCA00B844EA /* MyProfileViewController.h */,
+				EA2DAC5B194C6BCA00B844EA /* MyProfileViewController.m */,
+				EA2DAC5C194C6BCA00B844EA /* MyProfileViewController.xib */,
+			);
+			name = MyProfile;
+			sourceTree = "<group>";
+		};
+		EA2DAC69194C797100B844EA /* MyFavouriteProperty */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC6A194C79A300B844EA /* MyFavouritePropertyViewController.h */,
+				EA2DAC6B194C79A300B844EA /* MyFavouritePropertyViewController.m */,
+				EA2DAC6C194C79A300B844EA /* MyFavouritePropertyViewController.xib */,
+			);
+			name = MyFavouriteProperty;
+			sourceTree = "<group>";
+		};
+		EA2DAC75194C7D1800B844EA /* VisitHelpCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC76194C7D4A00B844EA /* VisitHelpCenterViewController.h */,
+				EA2DAC77194C7D4A00B844EA /* VisitHelpCenterViewController.m */,
+				EA2DAC78194C7D4A00B844EA /* VisitHelpCenterViewController.xib */,
+			);
+			name = VisitHelpCenter;
+			sourceTree = "<group>";
+		};
+		EA2DAC7B194C7F9A00B844EA /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DAC81194C7FF000B844EA /* ChangePasswordViewController.h */,
+				EA2DAC82194C7FF000B844EA /* ChangePasswordViewController.m */,
+				EA2DAC83194C7FF000B844EA /* ChangePasswordViewController.xib */,
+			);
+			name = ChangePassword;
+			sourceTree = "<group>";
+		};
+		EA2DB01E1939BB7100AD3079 = {
+			isa = PBXGroup;
+			children = (
+				EA3071CA195574EE00AEFDDC /* GIFImageView */,
+				EA0E8F141952F0CC00B0F493 /* SlideBarClass */,
+				EA6F812B194F143C0007E90A /* Pickers */,
+				EA2DAC02194C1F4300B844EA /* SlideMenu */,
+				EA2DB06A1939C0A700AD3079 /* Default-568h@2x.png */,
+				EA2DB0301939BB7100AD3079 /* Youth-Hostel */,
+				EA2DB0491939BB7100AD3079 /* Youth-HostelTests */,
+				EA2DB0291939BB7100AD3079 /* Frameworks */,
+				EA2DB0281939BB7100AD3079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2DB0281939BB7100AD3079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DB0271939BB7100AD3079 /* Youth-Hostel.app */,
+				EA2DB0421939BB7100AD3079 /* Youth-HostelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2DB0291939BB7100AD3079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC478121954674E0056A881 /* ImageIO.framework */,
+				EAC47810195467420056A881 /* QuartzCore.framework */,
+				EAA1563C195423D700213BAD /* CoreLocation.framework */,
+				EAA1563A1954237100213BAD /* MobileCoreServices.framework */,
+				EA2DB02A1939BB7100AD3079 /* Foundation.framework */,
+				EA2DB02C1939BB7100AD3079 /* CoreGraphics.framework */,
+				EA2DB02E1939BB7100AD3079 /* UIKit.framework */,
+				EA2DB0431939BB7100AD3079 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA2DB0301939BB7100AD3079 /* Youth-Hostel */ = {
+			isa = PBXGroup;
+			children = (
+				EA3507B6195172AA004F781A /* Resources */,
+				EA2DB0591939BBAD00AD3079 /* AppDelegate */,
+				EA2DAC2C194C604100B844EA /* MyAccount */,
+				EA2DAC4F194C69B500B844EA /* MyReview */,
+				EA2DAC7B194C7F9A00B844EA /* ChangePassword */,
+				EA2DAC59194C6BA200B844EA /* MyProfile */,
+				EA2DAC69194C797100B844EA /* MyFavouriteProperty */,
+				EA2DAC75194C7D1800B844EA /* VisitHelpCenter */,
+				EA2DAC40194C66EC00B844EA /* MyBooking */,
+				EA47F0721943387B00126A93 /* SearchViewController */,
+				EA6F8148194F1CF30007E90A /* SearchResultViewController */,
+				EA3FDED9195017BA00C7C5C1 /* HotelsDescription */,
+				EA3FDF3019507ED900C7C5C1 /* Map_Direction */,
+				EA3FDEEF195036C300C7C5C1 /* BookingDetail */,
+				EA3FDEF91950425300C7C5C1 /* PersonalInfoForBooking */,
+				EA3FDF0519505B8400C7C5C1 /* PaymentOption */,
+				EA3FDF19195074AC00C7C5C1 /* ScanCreditCard */,
+				EA3FDF281950780C00C7C5C1 /* BookingConfirm */,
+				EA2DB05D1939BBBC00AD3079 /* Login */,
+				EA2DAC1E194C50AF00B844EA /* RegisterViewController */,
+				EA2DB03C1939BB7100AD3079 /* Images.xcassets */,
+				EA2DB0311939BB7100AD3079 /* Supporting Files */,
+			);
+			path = "Youth-Hostel";
+			sourceTree = "<group>";
+		};
+		EA2DB0311939BB7100AD3079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DB0321939BB7100AD3079 /* Youth-Hostel-Info.plist */,
+				EA2DB0331939BB7100AD3079 /* InfoPlist.strings */,
+				EA2DB0361939BB7100AD3079 /* main.m */,
+				EA2DB0381939BB7100AD3079 /* Youth-Hostel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2DB0491939BB7100AD3079 /* Youth-HostelTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DB04F1939BB7100AD3079 /* Youth_HostelTests.m */,
+				EA2DB04A1939BB7100AD3079 /* Supporting Files */,
+			);
+			path = "Youth-HostelTests";
+			sourceTree = "<group>";
+		};
+		EA2DB04A1939BB7100AD3079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DB04B1939BB7100AD3079 /* Youth-HostelTests-Info.plist */,
+				EA2DB04C1939BB7100AD3079 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2DB0591939BBAD00AD3079 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DB05A1939BBAD00AD3079 /* AppDelegate.h */,
+				EA2DB05B1939BBAD00AD3079 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EA2DB05D1939BBBC00AD3079 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA2DB05E1939BBDD00AD3079 /* LoginViewController.h */,
+				EA2DB05F1939BBDD00AD3079 /* LoginViewController.m */,
+				EA2DB0601939BBDD00AD3079 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EA3071CA195574EE00AEFDDC /* GIFImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EA3071CB195574EE00AEFDDC /* SCGIFImageView.h */,
+				EA3071CC195574EE00AEFDDC /* SCGIFImageView.m */,
+			);
+			name = GIFImageView;
+			path = "Youth-Hostel/GIFImageView";
+			sourceTree = "<group>";
+		};
+		EA3507B6195172AA004F781A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAA187D919597B6E002E7128 /* getDirectionButton.png */,
+				EAA187D7195975F5002E7128 /* BTN_NOW.png */,
+				EAA187D319596F9E002E7128 /* icon_master_card.png */,
+				EAA187D419596F9E002E7128 /* icon_mastercard.png */,
+				EAA187CF19596F8E002E7128 /* icon_visa_card.png */,
+				EAA187D019596F8E002E7128 /* icon_visa.png */,
+				EAA187CD1959589C002E7128 /* icon_check_green.png */,
+				EAA187CA19594538002E7128 /* hotel_pic.png */,
+				EAA187C81959402B002E7128 /* Bubble1.png */,
+				EA47A6921958669300596ED1 /* review_indetail.png */,
+				EA3B3761195860DF00FB6D4F /* Cancel.png */,
+				EA3B3762195860DF00FB6D4F /* OK.png */,
+				EA3B375F19585E9400FB6D4F /* frame_square_iced_marble.png */,
+				EA3071D4195594CF00AEFDDC /* Showavailability.png */,
+				EA3071D21955908C00AEFDDC /* Broucher.png */,
+				EA3071D01955903B00AEFDDC /* Bubble.png */,
+				EA3071CE19558F9D00AEFDDC /* hotel_icon.png */,
+				EAC47806195460560056A881 /* searching.gif */,
+				EA0E8F1F19530CB200B0F493 /* logout_icon.png */,
+				EA0E8F1D19530BF700B0F493 /* fav_icon.png */,
+				EA0E8F1B19530BD500B0F493 /* myac_icon.png */,
+				EA0E8F121952ED1F00B0F493 /* Down_Arrow.png */,
+				EA0E8F0E1952BFA000B0F493 /* checked_checkbox.png */,
+				EA0E8F0F1952BFA000B0F493 /* unchecked_checkbox.png */,
+				EA3507B7195172AA004F781A /* address.png */,
+				EA3507B8195172AA004F781A /* arrow_down.png */,
+				EA3507B9195172AA004F781A /* best_loc.png */,
+				EA3507BA195172AA004F781A /* best_loc_select.png */,
+				EA3507BB195172AA004F781A /* best_price.png */,
+				EA3507BC195172AA004F781A /* best_price_select.png */,
+				EA3507BD195172AA004F781A /* best_rating.png */,
+				EA3507BE195172AA004F781A /* best_rating_select.png */,
+				EA3507BF195172AA004F781A /* booking_detail_1.png */,
+				EA3507C0195172AA004F781A /* booking_with_us.png */,
+				EA3507C1195172AA004F781A /* BookNowButton.png */,
+				EA3507C2195172AA004F781A /* btn_cur_loc.png */,
+				EA3507C3195172AA004F781A /* btn_infonprice.png */,
+				EA3507C4195172AA004F781A /* btn_map.png */,
+				EA3507C5195172AA004F781A /* btn_review.png */,
+				EA3507C6195172AA004F781A /* ButtonBorderImage.png */,
+				EA3507C7195172AA004F781A /* by_bus.png */,
+				EA3507C8195172AA004F781A /* by_bus_select.png */,
+				EA3507C9195172AA004F781A /* by_car.png */,
+				EA3507CA195172AA004F781A /* by_car_select.png */,
+				EA3507CB195172AA004F781A /* by_cycle.png */,
+				EA3507CC195172AA004F781A /* by_cycle_select.png */,
+				EA3507CD195172AA004F781A /* by_walk.png */,
+				EA3507CE195172AA004F781A /* by_walk_select.png */,
+				EA3507CF195172AA004F781A /* cancel_icon.png */,
+				EA3507D0195172AA004F781A /* change_password.png */,
+				EA3507D1195172AA004F781A /* change_password_in.png */,
+				EA3507D2195172AA004F781A /* change_password_indetail.png */,
+				EA3507D3195172AA004F781A /* ChangeButton.png */,
+				EA3507D4195172AA004F781A /* ConfirmButton.png */,
+				EA3507D5195172AA004F781A /* date_icon.png */,
+				EA3507D6195172AA004F781A /* direction_icon.png */,
+				EA3507D7195172AA004F781A /* GoToMyAccountButton.png */,
+				EA3507D8195172AA004F781A /* guest_icon.png */,
+				EA3507D9195172AA004F781A /* header.png */,
+				EA3507DA195172AA004F781A /* hotel_details_1.png */,
+				EA3507DB195172AA004F781A /* hotel_details_2.png */,
+				EA3507DC195172AA004F781A /* hotel_details_3.png */,
+				EA3507DD195172AA004F781A /* hotel_list_item.png */,
+				EA3507DE195172AA004F781A /* ic_drawer.png */,
+				EA3507DF195172AA004F781A /* icon_card.png */,
+				EA3507E0195172AA004F781A /* icon_launcher.png */,
+				EA3507E1195172AA004F781A /* icon_profile.png */,
+				EA3507E2195172AA004F781A /* icon_search.png */,
+				EA3507E3195172AA004F781A /* login_lock_icon.png */,
+				EA3507E4195172AA004F781A /* login_logo.png */,
+				EA3507E5195172AA004F781A /* login_title.png */,
+				EA3507E6195172AA004F781A /* main_screen.png */,
+				EA3507E7195172AA004F781A /* map_by_bus.png */,
+				EA3507E8195172AA004F781A /* map_by_car.png */,
+				EA3507E9195172AA004F781A /* map_by_cycle.png */,
+				EA3507EA195172AA004F781A /* map_by_walk.png */,
+				EA3507EB195172AA004F781A /* my_booking.png */,
+				EA3507EC195172AA004F781A /* my_booking_in.png */,
+				EA3507ED195172AA004F781A /* my_booking_indetail.png */,
+				EA3507EE195172AA004F781A /* my_fav_property.png */,
+				EA3507EF195172AA004F781A /* my_fav_property_in.png */,
+				EA3507F0195172AA004F781A /* my_fav_property_indetail.png */,
+				EA3507F1195172AA004F781A /* my_favourite_pro_Detail.png */,
+				EA3507F2195172AA004F781A /* my_pro1.png */,
+				EA3507F3195172AA004F781A /* my_profile.png */,
+				EA3507F4195172AA004F781A /* my_profile_in.png */,
+				EA3507F5195172AA004F781A /* my_review.png */,
+				EA3507F6195172AA004F781A /* my_review_in.png */,
+				EA3507F7195172AA004F781A /* my_review_indetail.png */,
+				EA3507F8195172AA004F781A /* name.png */,
+				EA3507F9195172AA004F781A /* name_select.png */,
+				EA3507FA195172AA004F781A /* near_by_icon.png */,
+				EA3507FB195172AA004F781A /* Newsletter.png */,
+				EA3507FC195172AA004F781A /* Newsletter_Subscription.png */,
+				EA3507FD195172AA004F781A /* NextButton.png */,
+				EA3507FE195172AA004F781A /* payment_method.png */,
+				EA3507FF195172AA004F781A /* payment_method_text.png */,
+				EA350800195172AA004F781A /* personal_info_title.png */,
+				EA350801195172AA004F781A /* register_icon.png */,
+				EA350802195172AA004F781A /* register_logo.png */,
+				EA350803195172AA004F781A /* register_text.png */,
+				EA350804195172AA004F781A /* RegisterButton.png */,
+				EA350805195172AA004F781A /* safest.png */,
+				EA350806195172AA004F781A /* safest_select.png */,
+				EA350807195172AA004F781A /* scan_credit_card_button.png */,
+				EA350808195172AA004F781A /* scannning.png */,
+				EA350809195172AA004F781A /* SeachButton.png */,
+				EA35080A195172AA004F781A /* search_hotel_text.png */,
+				EA35080B195172AA004F781A /* serch_icon.png */,
+				EA35080C195172AA004F781A /* setting_icon.png */,
+				EA35080D195172AA004F781A /* SplashScreen.png */,
+				EA35080E195172AA004F781A /* SplashScreen@2x.png */,
+				EA35080F195172AA004F781A /* square-unfilled.png */,
+				EA350810195172AA004F781A /* Square.png */,
+				EA350811195172AA004F781A /* star.png */,
+				EA350812195172AA004F781A /* update_your_profile.png */,
+				EA350813195172AA004F781A /* visit_help_centre.png */,
+				EA350814195172AA004F781A /* Youth-Hostel_logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA3FDED31950146500C7C5C1 /* CustomSearchCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA35087319517497004F781A /* CustomSearchCell.h */,
+				EA35087419517497004F781A /* CustomSearchCell.m */,
+				EA35087519517497004F781A /* CustomSearchCell.xib */,
+			);
+			name = CustomSearchCell;
+			sourceTree = "<group>";
+		};
+		EA3FDED9195017BA00C7C5C1 /* HotelsDescription */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDEDA195017EF00C7C5C1 /* HotelsDescriptionViewController.h */,
+				EA3FDEDB195017EF00C7C5C1 /* HotelsDescriptionViewController.m */,
+				EA3FDEDC195017EF00C7C5C1 /* HotelsDescriptionViewController.xib */,
+			);
+			name = HotelsDescription;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA3FDEEF195036C300C7C5C1 /* BookingDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDEF0195036F600C7C5C1 /* BookingDetailViewController.h */,
+				EA3FDEF1195036F600C7C5C1 /* BookingDetailViewController.m */,
+				EA3FDEF2195036F600C7C5C1 /* BookingDetailViewController.xib */,
+			);
+			name = BookingDetail;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA3FDEF91950425300C7C5C1 /* PersonalInfoForBooking */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDEFA1950428800C7C5C1 /* PersonalInfoViewController.h */,
+				EA3FDEFB1950428800C7C5C1 /* PersonalInfoViewController.m */,
+				EA3FDEFC1950428800C7C5C1 /* PersonalInfoViewController.xib */,
+			);
+			name = PersonalInfoForBooking;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA3FDF0519505B8400C7C5C1 /* PaymentOption */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDF0619505BB200C7C5C1 /* PaymentOptionViewController.h */,
+				EA3FDF0719505BB200C7C5C1 /* PaymentOptionViewController.m */,
+				EA3FDF0819505BB200C7C5C1 /* PaymentOptionViewController.xib */,
+			);
+			name = PaymentOption;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA3FDF19195074AC00C7C5C1 /* ScanCreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDF1F1950758D00C7C5C1 /* ScanCreditCardViewController.h */,
+				EA3FDF201950758D00C7C5C1 /* ScanCreditCardViewController.m */,
+				EA3FDF211950758D00C7C5C1 /* ScanCreditCardViewController.xib */,
+			);
+			name = ScanCreditCard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA3FDF281950780C00C7C5C1 /* BookingConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDF291950783A00C7C5C1 /* BookingConfirmViewController.h */,
+				EA3FDF2A1950783A00C7C5C1 /* BookingConfirmViewController.m */,
+				EA3FDF2B1950783A00C7C5C1 /* BookingConfirmViewController.xib */,
+			);
+			name = BookingConfirm;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA3FDF3019507ED900C7C5C1 /* Map_Direction */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDF3119507F0A00C7C5C1 /* Map_DirectionViewController.h */,
+				EA3FDF3219507F0A00C7C5C1 /* Map_DirectionViewController.m */,
+				EA3FDF3319507F0A00C7C5C1 /* Map_DirectionViewController.xib */,
+			);
+			name = Map_Direction;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA47F0721943387B00126A93 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA47F073194338A600126A93 /* SearchViewController.h */,
+				EA47F074194338A600126A93 /* SearchViewController.m */,
+				EA47F075194338A600126A93 /* SearchViewController.xib */,
+			);
+			name = SearchViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA6F812B194F143C0007E90A /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F8143194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.h */,
+				EA6F8144194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.m */,
+				EA6F8140194F15530007E90A /* NSDate+TCUtils.h */,
+				EA6F8141194F15530007E90A /* NSDate+TCUtils.m */,
+				EA6F813F194F14750007E90A /* ActionSheetPicker.h */,
+				EA6F812C194F143C0007E90A /* AbstractActionSheetPicker.h */,
+				EA6F812D194F143C0007E90A /* AbstractActionSheetPicker.m */,
+				EA6F812E194F143C0007E90A /* ActionSheetCustomPicker.h */,
+				EA6F812F194F143C0007E90A /* ActionSheetCustomPicker.m */,
+				EA6F8130194F143C0007E90A /* ActionSheetCustomPickerDelegate.h */,
+				EA6F8131194F143C0007E90A /* ActionSheetDatePicker.h */,
+				EA6F8132194F143C0007E90A /* ActionSheetDatePicker.m */,
+				EA6F8133194F143C0007E90A /* ActionSheetDistancePicker.h */,
+				EA6F8134194F143C0007E90A /* ActionSheetDistancePicker.m */,
+				EA6F8135194F143C0007E90A /* ActionSheetStringPicker.h */,
+				EA6F8136194F143C0007E90A /* ActionSheetStringPicker.m */,
+				EA6F8137194F143C0007E90A /* DistancePickerView.h */,
+				EA6F8138194F143C0007E90A /* DistancePickerView.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		EA6F8148194F1CF30007E90A /* SearchResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDED31950146500C7C5C1 /* CustomSearchCell */,
+				EA6F8158194F20510007E90A /* SearchResultViewController.h */,
+				EA6F8159194F20510007E90A /* SearchResultViewController.m */,
+				EA6F815A194F20510007E90A /* SearchResultViewController.xib */,
+			);
+			name = SearchResultViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2DB0261939BB7100AD3079 /* Youth-Hostel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2DB0531939BB7100AD3079 /* Build configuration list for PBXNativeTarget "Youth-Hostel" */;
+			buildPhases = (
+				EA2DB0231939BB7100AD3079 /* Sources */,
+				EA2DB0241939BB7100AD3079 /* Frameworks */,
+				EA2DB0251939BB7100AD3079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Youth-Hostel";
+			productName = "Youth-Hostel";
+			productReference = EA2DB0271939BB7100AD3079 /* Youth-Hostel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2DB0411939BB7100AD3079 /* Youth-HostelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2DB0561939BB7100AD3079 /* Build configuration list for PBXNativeTarget "Youth-HostelTests" */;
+			buildPhases = (
+				EA2DB03E1939BB7100AD3079 /* Sources */,
+				EA2DB03F1939BB7100AD3079 /* Frameworks */,
+				EA2DB0401939BB7100AD3079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2DB0481939BB7100AD3079 /* PBXTargetDependency */,
+			);
+			name = "Youth-HostelTests";
+			productName = "Youth-HostelTests";
+			productReference = EA2DB0421939BB7100AD3079 /* Youth-HostelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2DB01F1939BB7100AD3079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iqual;
+				TargetAttributes = {
+					EA2DB0411939BB7100AD3079 = {
+						TestTargetID = EA2DB0261939BB7100AD3079;
+					};
+				};
+			};
+			buildConfigurationList = EA2DB0221939BB7100AD3079 /* Build configuration list for PBXProject "Youth-Hostel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA2DB01E1939BB7100AD3079;
+			productRefGroup = EA2DB0281939BB7100AD3079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2DB0261939BB7100AD3079 /* Youth-Hostel */,
+				EA2DB0411939BB7100AD3079 /* Youth-HostelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2DB0251939BB7100AD3079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0E8F1C19530BD500B0F493 /* myac_icon.png in Resources */,
+				EA0E8F2619530FFB00B0F493 /* RearViewCell.xib in Resources */,
+				EA350847195172AA004F781A /* map_by_cycle.png in Resources */,
+				EA0E8F111952BFA000B0F493 /* unchecked_checkbox.png in Resources */,
+				EAA187D619596F9E002E7128 /* icon_mastercard.png in Resources */,
+				EA350868195172AA004F781A /* search_hotel_text.png in Resources */,
+				EA2DB0351939BB7100AD3079 /* InfoPlist.strings in Resources */,
+				EA35084B195172AA004F781A /* my_booking_indetail.png in Resources */,
+				EA350827195172AA004F781A /* by_car.png in Resources */,
+				EA35084D195172AA004F781A /* my_fav_property_in.png in Resources */,
+				EA35085A195172AA004F781A /* Newsletter_Subscription.png in Resources */,
+				EA350832195172AA004F781A /* ConfirmButton.png in Resources */,
+				EA350836195172AA004F781A /* guest_icon.png in Resources */,
+				EA2DAC7A194C7D4A00B844EA /* VisitHelpCenterViewController.xib in Resources */,
+				EA350821195172AA004F781A /* btn_infonprice.png in Resources */,
+				EA35086F195172AA004F781A /* star.png in Resources */,
+				EAA187DA19597B6E002E7128 /* getDirectionButton.png in Resources */,
+				EA2DAC31194C606B00B844EA /* MyAccountViewController.xib in Resources */,
+				EA350841195172AA004F781A /* login_lock_icon.png in Resources */,
+				EA0E8F2019530CB200B0F493 /* logout_icon.png in Resources */,
+				EA350834195172AA004F781A /* direction_icon.png in Resources */,
+				EA3FDF0A19505BB200C7C5C1 /* PaymentOptionViewController.xib in Resources */,
+				EA47F077194338A600126A93 /* SearchViewController.xib in Resources */,
+				EA350839195172AA004F781A /* hotel_details_2.png in Resources */,
+				EA2DAC85194C7FF000B844EA /* ChangePasswordViewController.xib in Resources */,
+				EA0E8F131952ED1F00B0F493 /* Down_Arrow.png in Resources */,
+				EA350855195172AA004F781A /* my_review_indetail.png in Resources */,
+				EA35083E195172AA004F781A /* icon_launcher.png in Resources */,
+				EA350819195172AA004F781A /* best_price.png in Resources */,
+				EA35081E195172AA004F781A /* booking_with_us.png in Resources */,
+				EA350870195172AA004F781A /* update_your_profile.png in Resources */,
+				EA2DAC4A194C679000B844EA /* MyBookingViewController.xib in Resources */,
+				EA350843195172AA004F781A /* login_title.png in Resources */,
+				EA3071CF19558F9D00AEFDDC /* hotel_icon.png in Resources */,
+				EA35086D195172AA004F781A /* square-unfilled.png in Resources */,
+				EA3071D5195594CF00AEFDDC /* Showavailability.png in Resources */,
+				EA35082A195172AA004F781A /* by_cycle_select.png in Resources */,
+				EA3B3764195860DF00FB6D4F /* OK.png in Resources */,
+				EA350830195172AA004F781A /* change_password_indetail.png in Resources */,
+				EA350872195172AA004F781A /* Youth-Hostel_logo.png in Resources */,
+				EA3FDF231950758D00C7C5C1 /* ScanCreditCardViewController.xib in Resources */,
+				EA350845195172AA004F781A /* map_by_bus.png in Resources */,
+				EA350837195172AA004F781A /* header.png in Resources */,
+				EA350844195172AA004F781A /* main_screen.png in Resources */,
+				EA35082B195172AA004F781A /* by_walk.png in Resources */,
+				EA35084A195172AA004F781A /* my_booking_in.png in Resources */,
+				EA35082D195172AA004F781A /* cancel_icon.png in Resources */,
+				EA350823195172AA004F781A /* btn_review.png in Resources */,
+				EA350864195172AA004F781A /* safest_select.png in Resources */,
+				EA3FDEF4195036F600C7C5C1 /* BookingDetailViewController.xib in Resources */,
+				EA350861195172AA004F781A /* register_text.png in Resources */,
+				EA350857195172AA004F781A /* name_select.png in Resources */,
+				EA47A6931958669300596ED1 /* review_indetail.png in Resources */,
+				EA350862195172AA004F781A /* RegisterButton.png in Resources */,
+				EA350865195172AA004F781A /* scan_credit_card_button.png in Resources */,
+				EA350852195172AA004F781A /* my_profile_in.png in Resources */,
+				EA350846195172AA004F781A /* map_by_car.png in Resources */,
+				EA3FDF2D1950783A00C7C5C1 /* BookingConfirmViewController.xib in Resources */,
+				EA3B376019585E9400FB6D4F /* frame_square_iced_marble.png in Resources */,
+				EA35083B195172AA004F781A /* hotel_list_item.png in Resources */,
+				EA350825195172AA004F781A /* by_bus.png in Resources */,
+				EA350858195172AA004F781A /* near_by_icon.png in Resources */,
+				EA35085D195172AA004F781A /* payment_method_text.png in Resources */,
+				EA3071D31955908C00AEFDDC /* Broucher.png in Resources */,
+				EA35084F195172AA004F781A /* my_favourite_pro_Detail.png in Resources */,
+				EA35081F195172AA004F781A /* BookNowButton.png in Resources */,
+				EA350833195172AA004F781A /* date_icon.png in Resources */,
+				EA350860195172AA004F781A /* register_logo.png in Resources */,
+				EA35086E195172AA004F781A /* Square.png in Resources */,
+				EA350871195172AA004F781A /* visit_help_centre.png in Resources */,
+				EA35084E195172AA004F781A /* my_fav_property_indetail.png in Resources */,
+				EA350829195172AA004F781A /* by_cycle.png in Resources */,
+				EA2DAC23194C50FD00B844EA /* RegisterViewController.xib in Resources */,
+				EA350866195172AA004F781A /* scannning.png in Resources */,
+				EA35085F195172AA004F781A /* register_icon.png in Resources */,
+				EA35081B195172AA004F781A /* best_rating.png in Resources */,
+				EA350835195172AA004F781A /* GoToMyAccountButton.png in Resources */,
+				EA350859195172AA004F781A /* Newsletter.png in Resources */,
+				EA350828195172AA004F781A /* by_car_select.png in Resources */,
+				EA350842195172AA004F781A /* login_logo.png in Resources */,
+				EA350867195172AA004F781A /* SeachButton.png in Resources */,
+				EAA187D219596F8E002E7128 /* icon_visa.png in Resources */,
+				EA350826195172AA004F781A /* by_bus_select.png in Resources */,
+				EA3B3763195860DF00FB6D4F /* Cancel.png in Resources */,
+				EA350822195172AA004F781A /* btn_map.png in Resources */,
+				EA350869195172AA004F781A /* serch_icon.png in Resources */,
+				EAA187CB19594538002E7128 /* hotel_pic.png in Resources */,
+				EA350818195172AA004F781A /* best_loc_select.png in Resources */,
+				EA350851195172AA004F781A /* my_profile.png in Resources */,
+				EA35083F195172AA004F781A /* icon_profile.png in Resources */,
+				EA2DAC54194C69E400B844EA /* MyReviewViewController.xib in Resources */,
+				EA2DB03D1939BB7100AD3079 /* Images.xcassets in Resources */,
+				EA350856195172AA004F781A /* name.png in Resources */,
+				EA350848195172AA004F781A /* map_by_walk.png in Resources */,
+				EA3FDF3519507F0A00C7C5C1 /* Map_DirectionViewController.xib in Resources */,
+				EA3071D11955903B00AEFDDC /* Bubble.png in Resources */,
+				EA2DAC07194C1F7600B844EA /* RearViewController.xib in Resources */,
+				EA35087719517497004F781A /* CustomSearchCell.xib in Resources */,
+				EA3FDEDE195017EF00C7C5C1 /* HotelsDescriptionViewController.xib in Resources */,
+				EA0E8F101952BFA000B0F493 /* checked_checkbox.png in Resources */,
+				EA350853195172AA004F781A /* my_review.png in Resources */,
+				EAA187D119596F8E002E7128 /* icon_visa_card.png in Resources */,
+				EA35082F195172AA004F781A /* change_password_in.png in Resources */,
+				EA35085C195172AA004F781A /* payment_method.png in Resources */,
+				EAA187D519596F9E002E7128 /* icon_master_card.png in Resources */,
+				EAC47807195460560056A881 /* searching.gif in Resources */,
+				EAA187CE1959589C002E7128 /* icon_check_green.png in Resources */,
+				EA35086A195172AA004F781A /* setting_icon.png in Resources */,
+				EA35081D195172AA004F781A /* booking_detail_1.png in Resources */,
+				EA35083A195172AA004F781A /* hotel_details_3.png in Resources */,
+				EA35082E195172AA004F781A /* change_password.png in Resources */,
+				EA350815195172AA004F781A /* address.png in Resources */,
+				EA350863195172AA004F781A /* safest.png in Resources */,
+				EA35085B195172AA004F781A /* NextButton.png in Resources */,
+				EA350820195172AA004F781A /* btn_cur_loc.png in Resources */,
+				EA35083C195172AA004F781A /* ic_drawer.png in Resources */,
+				EAA187C91959402B002E7128 /* Bubble1.png in Resources */,
+				EAA187D8195975F5002E7128 /* BTN_NOW.png in Resources */,
+				EA2DB0621939BBDD00AD3079 /* LoginViewController.xib in Resources */,
+				EA350850195172AA004F781A /* my_pro1.png in Resources */,
+				EA35081A195172AA004F781A /* best_price_select.png in Resources */,
+				EA35083D195172AA004F781A /* icon_card.png in Resources */,
+				EA6F815C194F20510007E90A /* SearchResultViewController.xib in Resources */,
+				EA350854195172AA004F781A /* my_review_in.png in Resources */,
+				EA2DAC5E194C6BCA00B844EA /* MyProfileViewController.xib in Resources */,
+				EA350816195172AA004F781A /* arrow_down.png in Resources */,
+				EA35081C195172AA004F781A /* best_rating_select.png in Resources */,
+				EA350838195172AA004F781A /* hotel_details_1.png in Resources */,
+				EA350849195172AA004F781A /* my_booking.png in Resources */,
+				EA350817195172AA004F781A /* best_loc.png in Resources */,
+				EA2DAC6E194C79A300B844EA /* MyFavouritePropertyViewController.xib in Resources */,
+				EA35085E195172AA004F781A /* personal_info_title.png in Resources */,
+				EA35086B195172AA004F781A /* SplashScreen.png in Resources */,
+				EA350824195172AA004F781A /* ButtonBorderImage.png in Resources */,
+				EA35082C195172AA004F781A /* by_walk_select.png in Resources */,
+				EA0E8F1E19530BF700B0F493 /* fav_icon.png in Resources */,
+				EA350840195172AA004F781A /* icon_search.png in Resources */,
+				EA35086C195172AA004F781A /* SplashScreen@2x.png in Resources */,
+				EA35084C195172AA004F781A /* my_fav_property.png in Resources */,
+				EA3FDEFE1950428800C7C5C1 /* PersonalInfoViewController.xib in Resources */,
+				EA350831195172AA004F781A /* ChangeButton.png in Resources */,
+				EA2DB06B1939C0A700AD3079 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2DB0401939BB7100AD3079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2DB04E1939BB7100AD3079 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2DB0231939BB7100AD3079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6F813C194F143C0007E90A /* ActionSheetDistancePicker.m in Sources */,
+				EA3FDEF3195036F600C7C5C1 /* BookingDetailViewController.m in Sources */,
+				EA2DB0371939BB7100AD3079 /* main.m in Sources */,
+				EA2DAC79194C7D4A00B844EA /* VisitHelpCenterViewController.m in Sources */,
+				EA0E8F2519530FFB00B0F493 /* RearViewCell.m in Sources */,
+				EA3FDF3419507F0A00C7C5C1 /* Map_DirectionViewController.m in Sources */,
+				EA3FDEDD195017EF00C7C5C1 /* HotelsDescriptionViewController.m in Sources */,
+				EA2DB05C1939BBAD00AD3079 /* AppDelegate.m in Sources */,
+				EA3FDEFD1950428800C7C5C1 /* PersonalInfoViewController.m in Sources */,
+				EA3FDF2C1950783A00C7C5C1 /* BookingConfirmViewController.m in Sources */,
+				EA2DAC53194C69E400B844EA /* MyReviewViewController.m in Sources */,
+				EA6F8145194F15700007E90A /* ActionSheetPickerCustomPickerDelegate.m in Sources */,
+				EA6F813B194F143C0007E90A /* ActionSheetDatePicker.m in Sources */,
+				EA6F813A194F143C0007E90A /* ActionSheetCustomPicker.m in Sources */,
+				EA47F076194338A600126A93 /* SearchViewController.m in Sources */,
+				EA6F8142194F15530007E90A /* NSDate+TCUtils.m in Sources */,
+				EA2DAC84194C7FF000B844EA /* ChangePasswordViewController.m in Sources */,
+				EA0E8F191952F0CC00B0F493 /* RevealController.m in Sources */,
+				EA6F8139194F143C0007E90A /* AbstractActionSheetPicker.m in Sources */,
+				EA2DAC49194C679000B844EA /* MyBookingViewController.m in Sources */,
+				EA6F813E194F143C0007E90A /* DistancePickerView.m in Sources */,
+				EA0E8F1A1952F0CC00B0F493 /* ZUUIRevealController.m in Sources */,
+				EA2DAC6D194C79A300B844EA /* MyFavouritePropertyViewController.m in Sources */,
+				EA2DAC06194C1F7600B844EA /* RearViewController.m in Sources */,
+				EA6F813D194F143C0007E90A /* ActionSheetStringPicker.m in Sources */,
+				EA3FDF221950758D00C7C5C1 /* ScanCreditCardViewController.m in Sources */,
+				EA2DB0611939BBDD00AD3079 /* LoginViewController.m in Sources */,
+				EA3071CD195574EE00AEFDDC /* SCGIFImageView.m in Sources */,
+				EA2DAC30194C606B00B844EA /* MyAccountViewController.m in Sources */,
+				EA2DAC5D194C6BCA00B844EA /* MyProfileViewController.m in Sources */,
+				EA6F815B194F20510007E90A /* SearchResultViewController.m in Sources */,
+				EA3FDF0919505BB200C7C5C1 /* PaymentOptionViewController.m in Sources */,
+				EA35087619517497004F781A /* CustomSearchCell.m in Sources */,
+				EA2DAC22194C50FD00B844EA /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2DB03E1939BB7100AD3079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2DB0501939BB7100AD3079 /* Youth_HostelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA2DB0481939BB7100AD3079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2DB0261939BB7100AD3079 /* Youth-Hostel */;
+			targetProxy = EA2DB0471939BB7100AD3079 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA2DB0331939BB7100AD3079 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2DB0341939BB7100AD3079 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA2DB04C1939BB7100AD3079 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2DB04D1939BB7100AD3079 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2DB0511939BB7100AD3079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA2DB0521939BB7100AD3079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2DB0541939BB7100AD3079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youth-Hostel/Youth-Hostel-Prefix.pch";
+				INFOPLIST_FILE = "Youth-Hostel/Youth-Hostel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA2DB0551939BB7100AD3079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youth-Hostel/Youth-Hostel-Prefix.pch";
+				INFOPLIST_FILE = "Youth-Hostel/Youth-Hostel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA2DB0571939BB7100AD3079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Youth-Hostel.app/Youth-Hostel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youth-Hostel/Youth-Hostel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Youth-HostelTests/Youth-HostelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA2DB0581939BB7100AD3079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Youth-Hostel.app/Youth-Hostel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youth-Hostel/Youth-Hostel-Prefix.pch";
+				INFOPLIST_FILE = "Youth-HostelTests/Youth-HostelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2DB0221939BB7100AD3079 /* Build configuration list for PBXProject "Youth-Hostel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2DB0511939BB7100AD3079 /* Debug */,
+				EA2DB0521939BB7100AD3079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2DB0531939BB7100AD3079 /* Build configuration list for PBXNativeTarget "Youth-Hostel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2DB0541939BB7100AD3079 /* Debug */,
+				EA2DB0551939BB7100AD3079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2DB0561939BB7100AD3079 /* Build configuration list for PBXNativeTarget "Youth-HostelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2DB0571939BB7100AD3079 /* Debug */,
+				EA2DB0581939BB7100AD3079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2DB01F1939BB7100AD3079 /* Project object */;
+}
